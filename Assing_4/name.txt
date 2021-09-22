@@ -1,0 +1,12 @@
+// SPDX-License-Identifier: MIT
+// Name: Syed Amir Shah Hamdani
+// Roll No: PIAIC69714
+// BCC Assignment No: 4
+-----------------------------------------------------------------
+name	"Ticket for Floyd Token &quot"
+description	"A ticket that will be a Floyd NFT soon..."
+image	"https://floydnft.com/img/FMWTicket.jpeg"
+attributes	
+0	
+trait_type	"Is Ticket"
+value	"yes"

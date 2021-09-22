@@ -9,7 +9,7 @@
 
 pragma solidity ^0.8.0;
 
-interface ERC20 {
+interface IERC20 {
     function totalSupply() external view returns (uint256);
 
     function balanceOf(address account) external view returns (uint256);
@@ -31,7 +31,7 @@ interface ERC20 {
     event Approval(address indexed owner, address indexed spender, uint256 value);
 }
 
-contract tokenPIAIC is ERC20 {
+contract tokenPIAIC is IERC20 {
     mapping(address => uint256) private _balances;
     mapping(address => mapping(address => uint256)) private _allowances;
     uint256 private _totalSupply;
