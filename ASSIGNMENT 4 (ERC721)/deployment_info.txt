@@ -1,0 +1,67 @@
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 29823519 (0x1c7121f)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x9558a1b73910411a502fc48b590531c373b0fd541979d731a85d86737ffb2c65
+   > Blocks: 2            Seconds: 17
+   > contract address:    0xf1B9079920533b7E6699FcA80A10139c77E6a406
+   > block number:        9381443
+   > block timestamp:     1632978834
+   > account:             0x39602393131d0732C6ABF4dcd90390dE0DCe3c03
+   > balance:             18.725124904863724754
+   > gas used:            245600 (0x3bf60)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.004912 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 9381444)
+   > confirmation number: 2 (block: 9381445)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:            0.004912 ETH
+
+
+2_ERC721TOKEN.js
+================
+
+   Deploying 'ERC721TOKEN'
+   -----------------------
+   > transaction hash:    0xd67220cd5990ce58ca541d0cd5b7e5efc985fa842d8bd686197f2ac27f7db07a
+   > Blocks: 2            Seconds: 21
+   > contract address:    0x2Be0F69b447D2FD95E314E2c0De32eDcD9C4f542
+   > block number:        9381448
+   > block timestamp:     1632978909
+   > account:             0x39602393131d0732C6ABF4dcd90390dE0DCe3c03
+   > balance:             18.662962504863724754
+   > gas used:            3062207 (0x2eb9bf)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.06124414 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 9381449)
+   > confirmation number: 2 (block: 9381450)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.06124414 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.06615614 ETH
